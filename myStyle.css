@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    padding:0;
+    height:200%;
+    background-color: #ff1493;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: orange;
+    text-align:left;
+    font-size: 20px;
+}
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align:left;
+}
+img {
+    float:inherit;
+    border: 5px dotted black;
+    margin: 5px 10px 0px px;
+    width: 100%;
+    height: auto;
+    opacity: 10;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffa500;
+}
+li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+section {
+  float: left;
+  width: 30%;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction:ltr;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position:inherit;
+}
+
+figcaption{
+    text-align:left;
+}
+nav {
+    display: block;
+}
+code {
+  background: #ff14ff;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: left;
+}

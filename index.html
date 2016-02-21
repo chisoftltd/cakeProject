@@ -1,63 +1,98 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cake Recipes</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="myStyle.css"> 
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="script.js">
+// When the window has loaded, DOM is ready. Run the draw() function.
+
+</script>
 </head>
 <body>
-  <h1>Welcome to Thimble</h1>
-  <div class="container">
-    <div id="companyLogo">
-      <header>
-        <a href="/index.html"><img src="company_logo.png"   alt="logo" /></a>
+    <header>
+        <code>
+            <h1> Dessert recept och förberedelse</h1>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="/recept/">Recept</a></li>
+                        <li><a href="/förberedelse/">Förberedelse</a></li>
+                        <li><a href="/kontact/">Kontact</a></li>
+                        <li><a href="/about/">Om Oss</a></li>
+                        <ul style="float:right;list-style-type:none;">
+                            <li><a href="#/login/">Logga in</a></li>
+                        </ul>
+                    </ul>
+                </nav>
+            </code>
+    </header>
+    <hr>
+    <section>
+        <code>
+            <h2>Flourless Chocolate Cake I</h2>
+             <figure>
+                <img src="Flourless_Chocolate_Cake.jpg" width="320" height="200">
+            </figure>
+            <div class="rating">
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+            </div>
+            <figcaption>Recipe by: <strong>Maggie</strong></figcaption>
+            <p>"A dense chocolate cake for those of us who can't tolerate wheat or gluten."</p>
+        </code>
+    </section>
+    
+    <section>
+        <code>
+            <nav>
+                <h3>Navigation</h3>
+                    <p>You are on my home page. To the north lies <a href="/blog">my
+                        blog</a>, from whence the sounds of battle can be heard. To the east you can see a large mountain, upon which many <a
+                        href="/school">school papers</a> are littered. Far up thus mountain you can spy a little figure who appears to be me, desperately scribbling a <a href="/school/thesis">thesis</a>.
+                    </p> 
+                    <p>To the west are several exits. One fun-looking exit is           labeled <a href="http://games.example.com/">"games"</a>.         Another more boring-looking exit is labeled <a                   href="http://isp.example.net/">ISP™</a>.
+                    </p>
+                    <p>To the south lies a dark and dank <a href="/about">contacts
+                        page</a>. Cobwebs cover its disused entrance, and at one point you see a rat run quickly out of the page.
+                    </p>
+            </nav>
+        </code>
+    </section>
+    
+    <section>
+        <code>
+            <h2>Flourless Chocolate Cake I</h2>
+            <figure>
+                <img src="flourless-chocolate-cake.jpg" width="320" height="200">
+            </figure>
+            <div class="rating">
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+            </div>
+            <figcaption>Recipe by: <strong>Maggie</strong></figcaption>
+            <p>"This flourless chocolate cake recipe with almonds is rich and fudgy and best of all, easy to make!"</p>
+        </code>
+    </section>
+    
+    
+    <footer>
+        <code>
+            <address>
+                    Written by <a href="mailto:chinwe@kth.se">Benjamin Chinwe</a>.<br> 
+                    Visit us at:<br>
+                    benjaminchinwe.weebly.com<br>
+                    Box 564, Stockholm<br>
+                    Sweden
+            </address>
+        </code>
+    </footer>
 
-      </header>
-    </div>
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </div>
-  
-        <form id="frmSearch" class="search2" method="get" action="index.html" />
-        <input class="search2" id="txtSearch" type="text" name="serach_bar" size="31" maxlength="255"       
-               value="" style=" width: 120px; height:36px;" />
-        <input class="search1" type="submit" name="submition" value="Search" style="border-style: none; background: url('searchbutton2.gif') no-repeat;" />
-        <input class="search2" type="hidden" name="sitesearch" value="index.html" />
- 
-
-  </div>
-<div class="slider-container" global-ui-events></div>
-
- <p>Hello Cakes!</p>
-      
-
-  <p>Make something <strong>amazing</strong> with the web!</p>
-  <section id="container">
-    <div class="child">Display   
-    </div>
-    <div class="child"> Display      
-    </div>
-    <div class="child"> Display 
-    </div>
-    <div class="child">
-        <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
-        <p id="countingString">Number of clicks on button: <strong>0</strong> </p>
-        
-<button type="button" onclick="clickedButton();">Click me!</button>
-        <script src="script.js"></script>
-        
-<map name="planetmap">
-  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
-  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
-  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
-</map>
-    </div>
-  </section>
-
+    
 </body>
 </html>
