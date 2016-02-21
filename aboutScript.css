@@ -1,5 +1,14 @@
+body {
+    margin:0;
+    padding:0;
+    height:200%;
+    background-color: #ff1493;
+    color: #404040;
+    font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+}
+
 code {
-  background: #2db34a;
+  background: #ff14ff;
   border-radius: 6px;
   color: #fff;
   display: block;

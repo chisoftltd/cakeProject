@@ -1,5 +1,11 @@
+body {
+    margin:0;
+    padding:0;
+    height:200%;
+    background-color: #ff1493;
+}
 code {
-  background: #2db34a;
+  background: #ff14ff;
   border-radius: 6px;
   color: #fff;
   display: block;
